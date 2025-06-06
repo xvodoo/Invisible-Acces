@@ -30,7 +30,7 @@ Use it wisely. Or don’t.
 auto lo
 iface lo inet loopback
 ```
-Now we go to *Resolv.conf*
+   *Now we go to *Resolv.conf*
 ```
 sudo nano /etc/resolv.conf
 ```
@@ -40,7 +40,7 @@ nameserver 192.168.42.1
 ```
 ⚠️*Restart your pc*
 
-### Wifi
+### WIFI
 ```
  sudo nano /etc/network/interfaces
 ```
