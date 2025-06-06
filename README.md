@@ -8,7 +8,7 @@ Use it wisely. Or don’t.
 👹 3HK
 
 ## Static Ip
-#### Basic step
+### Basic step
 
 1.    Install VMware Workstation or any other virtual Machine 
 2.    download kali-linux-2025-W22-installer-amd64 *(ISO)*
