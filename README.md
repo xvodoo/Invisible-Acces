@@ -158,7 +158,10 @@ Download FILE_NAME
 ```
  
 ## Tutorial Video 
-[![3HK- Rosetta Stone](https://user-images.githubusercontent.com/47686437/168548113-b3cd4206-3281-445b-b7c6-bc0a3251293d.png)](https://www.youtube.com/)
+[![3HK- Backdoor](https://user-images.githubusercontent.com/47686437/168548113-b3cd4206-3281-445b-b7c6-bc0a3251293d.png)](https://youtu.be/il4H8FB2BLg)
+
+## Whatsapp Channel
+[![3HK- Backdoor](https://github.com/appicons/Whatsapp/blob/master/icons/whatsapp_194x194.png)](https://whatsapp.com/channel/0029Vb62RTF0G0XeN4Qx4c3W)
 
 
 
